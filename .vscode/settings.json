@@ -1,0 +1,10 @@
+{
+    "deno.enable": true,
+    "deno.enablePaths": [
+        "./2024/day-02/deno",
+    ],
+    "deno.testing.args": [
+        "--allow-all",
+        "--no-check"
+    ]
+}
