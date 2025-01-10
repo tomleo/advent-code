@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -10,20 +7,11 @@
             "name": "Day 2 - Part 1",
             "runtimeExecutable": "node",
             "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-            // "runtimeArgs": ["--import", "tsx"],
-
             "args": "${file}",
-            // "program": "${file}",
-
             "skipFiles": [
                 "<node_internals>/**",
                 "node_modules/**",
             ],
-            
-            
-            // "outFiles": [
-            //     "${workspaceFolder}/**/*.js"
-            // ],
             "cwd": "${workspaceFolder}/2024/day-02/typescript",
             "internalConsoleOptions": "openOnSessionStart"
         },
@@ -33,7 +21,6 @@
             "request": "launch",
             "cwd": "${workspaceFolder}/2024/day-02/deno",
             "runtimeExecutable": "deno",
-            // "program": "${file}",
             "runtimeArgs": ["run", "--inspect-brk", "-A", "${fileBasename}"],
             "outputCapture": "std",
             "attachSimplePort": 9229

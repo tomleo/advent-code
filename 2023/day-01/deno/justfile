@@ -1,0 +1,6 @@
+p1:
+    deno run --allow-read --cached-only part1.ts
+p2:
+    deno run --allow-read --cached-only part2.ts
+test:
+    deno test --allow-all part2_test.ts

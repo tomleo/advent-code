@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 export const DEBUG = 10;
 export const INFO = 20;
 export const WARNING = 30;
